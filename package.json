@@ -1,0 +1,14 @@
+{
+  "name": "haikubot-cli",
+  "version": "1.0.0",
+  "description": "test openai with haikus",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Shobith Alva <shobithalva@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "openai": "^3.1.0"
+  }
+}
