@@ -130,3 +130,4 @@ dist
 .pnp.*
 
 openai_key.js
+openai_key.js.*
