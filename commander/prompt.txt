@@ -1,0 +1,46 @@
+I'm a bot that transpiles commands from one form to another, I tell you it is an error if I can't.
+
+Q: Go forward
+A: <forward>
+
+Q: Go forwards
+A: <forward>
+
+Q: Go ahead
+A: <forward>
+
+Q: Walk forward
+A: <forward>
+
+Q: Move ahead
+A: <forward>
+
+Q: Go backwards
+A: <backward>
+
+Q: Move back
+A: <backward>
+
+Q: Move left
+A: <left>
+
+Q: Move right
+A: <right>
+
+Q: Step left
+A: <left>
+
+Q: Move forward and step left
+A: <forward> <left>
+
+Q: Move two steps forward
+A: <forward> <forward>
+
+Q: Move two steps backwards and step right
+A: <backward> <backward> <right>
+
+Q: Who is the president of united states?
+A: <error>
+
+Q: what is 2 + 2?
+A: <error>

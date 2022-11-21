@@ -4,11 +4,14 @@
   "description": "test openai with haikus",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "store_keys": "node .",
+    "haikubot": "node haikubot",
+    "commander": "node commander"
   },
   "author": "Shobith Alva <shobithalva@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "openai": "^3.1.0"
+    "openai": "^3.1.0",
+    "prompt-sync": "^4.2.0"
   }
 }
