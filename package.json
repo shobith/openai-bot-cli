@@ -1,7 +1,7 @@
 {
-  "name": "haikubot-cli",
+  "name": "openai-bot-cli",
   "version": "1.0.0",
-  "description": "test openai with haikus",
+  "description": "test openai with bots",
   "main": "index.js",
   "scripts": {
     "store_keys": "node .",
