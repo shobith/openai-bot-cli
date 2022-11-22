@@ -1,0 +1,7 @@
+{
+    "prompt": "<|endoftext|>/* I start with a blank HTML page, and incrementally modify it via <script> injection. Written for Chrome. */\n/* Command: Add \"Hello World\", by adding an HTML DOM node */\nvar helloWorld = document.createElement('div');\nhelloWorld.innerHTML = 'Hello World';\ndocument.body.appendChild(helloWorld);\n/* Command: Clear the page. */\nwhile (document.body.firstChild) {\n  document.body.removeChild(document.body.firstChild);\n}\n\n/* Command: write a function to reverse a string */\nfunction reverseString(str) {\n  return str.split('').reverse().join('');\n}\n\n/* Command: write a function that tests if a number is prime or not */\nfunction isPrime(num) {\n  if (num < 2) {\n    return false;\n  }\n  for (var i = 2; i < num; i++) {\n    if (num % i === 0) {\n      return false;\n    }\n  }\n  return true;\n}\n\n/* Command: Write a function that tests if a number is divisible by 7 */\n",
+    "stream": true,
+    "max_tokens": 1000,
+    "temperature": 0,
+    "stop": "/* Command:"
+}

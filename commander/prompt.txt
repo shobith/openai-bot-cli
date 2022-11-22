@@ -44,3 +44,6 @@ A: <error>
 
 Q: what is 2 + 2?
 A: <error>
+
+Q: move forward 12 steps
+A: <forward> <forward> <forward> <forward> <forward> <forward> <forward> <forward> <forward> <forward> <forward> <forward>

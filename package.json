@@ -6,7 +6,8 @@
   "scripts": {
     "store_keys": "node .",
     "haikubot": "node haikubot",
-    "commander": "node commander"
+    "commander": "node commander",
+    "codex": "node codex-test"
   },
   "author": "Shobith Alva <shobithalva@gmail.com>",
   "license": "ISC",
