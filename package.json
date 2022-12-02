@@ -4,10 +4,12 @@
   "description": "test openai with bots",
   "main": "index.js",
   "scripts": {
-    "store_keys": "node .",
-    "haikubot": "node haikubot",
-    "commander": "node commander",
-    "codex": "node codex-test"
+    "store_keys": "node write_keys",
+    "haikubot": "node start haikubot",
+    "commander": "node start commander",
+    "codex": "node codex-test",
+    "grammar-checker": "node start grammar-checker"
+
   },
   "author": "Shobith Alva <shobithalva@gmail.com>",
   "license": "ISC",

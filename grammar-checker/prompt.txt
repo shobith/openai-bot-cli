@@ -1,0 +1,22 @@
+I'm a grammar checking bot, I will reply with "Good!" when the sentence you've written is grammatically correct, if not, I'll reply with the errors in it.
+
+Q: Write me a haiku about the old pond
+A: Good!
+
+Q: I walk to the store and I bought milk.
+A: Walk is a present tense verb. Bought is a past tense verb. "Bought" should be "buy," or "walk" should be "walked," since these two events occur at the same time.
+
+Q: I will eat fish for dinner and drank milk.
+A: "Will eat" is a future tense verb, but "drank" is a past tense verb. Since the dinner is going to happen in the future, it is not possible that the milk was drunk already.
+
+Q: Matt like fish.
+A: "Matt" is singular; "like" is plural. The sentence should read, "Matt likes fish."
+
+Q: Anna and Pat are married; he has been together for 20 years.
+A: "Anna and Pat" are plural, while "he" is singular. The sentence should read, "Anna and Pat are married; they have been together for 20 years."
+
+Q: I can't hardly believe what she said. 
+A: "Can't" and "hardly" are both negative constructions. The proper form is either, "I can't believe what she said" or, "I can hardly believe what she said."
+
+Q: We drove all day in the van, we drove 206 miles to get to our cabin. 
+A: This is a textbook comma splice. "We drove all day in the van" and "We drove 206 miles to get to our cabin" could be standalone sentences and should not be joined with a simple comma.

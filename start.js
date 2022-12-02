@@ -1,8 +1,9 @@
 const fs = require('fs');
 const readline = require('readline');
-const { organization, apiKey } = require('../openai_key');
+const { organization, apiKey } = require('./openai_key');
 const { Configuration, OpenAIApi } = require("openai");
 
+const bot = process.argv[2];
 const configuration = new Configuration({ apiKey });
 const openai = new OpenAIApi(configuration);
 const rl = readline.createInterface({
@@ -12,7 +13,7 @@ const rl = readline.createInterface({
 });
 
 function generatePrompt(question) {
-    return `${fs.readFileSync('commander/prompt.txt', 'utf8')}Q: ${question}`;
+    return `${fs.readFileSync(`${bot}/prompt.txt`, 'utf8')}Q: ${question}`;
 }
 
 async function answer(question) {
@@ -27,14 +28,14 @@ async function answer(question) {
     };
 }
 
-const commander_repl = function () {
+const bot_repl = function () {
     rl.question('>>> ', async (prompt) => {
         await answer(prompt)
             .then(response => response.result.length > 0 ? response.result : '🤷🏽')
             .then(result => result.replace(/A:[\n]?/, '\n').trim())
             .then(console.log);
-        commander_repl();
+            bot_repl();
     });
 };
 
-commander_repl();
+bot_repl();
