@@ -1,6 +1,6 @@
 # openai-bot-cli
 
-Quick way to create OpenAI bots and test them out
+Quick way to create OpenAI bots and test them out.
 
 0.  if you don't have node and yarn, follow some tutorial to do this.
 1. `cd openai-bot-cli`
