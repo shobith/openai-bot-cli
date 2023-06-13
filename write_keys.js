@@ -9,10 +9,11 @@ function writeKeys() {
         fs.renameSync('openai_key.js', 'openai_key.js.bak');
     }
 
-    fs.writeFileSync('openai_key.js', `module.exports = {
-    'organization': '${organization}',
-    'apiKey': '${key}'
-}
+    fs.writeFileSync('openai_key.js', 
+`module.exports = {
+   'organization': '${organization}',
+   'apiKey': '${key}'
+ }
 `);
 }
 
